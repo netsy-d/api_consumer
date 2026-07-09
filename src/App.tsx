@@ -3,7 +3,7 @@ import { useWeather } from "./hooks/useWeather";
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
 import LoadingSpinner from "./components/LoadingSpinner";
-require("./App.css");
+import "./App.css";
 
 const App: React.FC = () => {
   const { weatherData, loading, error, searchWeather } = useWeather();

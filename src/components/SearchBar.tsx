@@ -12,7 +12,6 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch, isLoading }) => {
     e.preventDefault();
     if (city.trim()) {
       onSearch(city.trim());
-      setCity('');
     }
   };
 
